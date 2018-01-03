@@ -5,7 +5,7 @@ This project was created for the Ubiquitous Computing Course on the KIT. The goa
 
 #### 1.1 Project structure
 | Folder    |     Content |
-|:--------|--------------------: |
+|:--------|:-------------------- |
 | README.md | This file. Information about the project in github flavoured markup ([GFM](https://github.github.com/gfm/) )|
 | src/ | Contains source code for uploading to arduino|
 | docs/schema/ | Contains schema of the electrocins and bill of material. Created with [Fritzing](http://fritzing.org/home/) |
@@ -21,7 +21,7 @@ I want to solve this problem by developing this SmartKanne. This gadget should h
 Here I list the basic requierements SmartKanne should be able to cover:
 
 | Requirement    |     Description |
-|:--------|--------------------: |
+|:--------|:-------------------- |
 |Tea selection|The user should be able to select the type of tea he wants to make|
 |Tea information|Depending on the type of tea, SmartKanne should know the recommended temperature as well as the steep time |
 |Notification|If the tea is ready to drink, SmartKanne should be able to notify to the user |
@@ -59,7 +59,7 @@ In order to steep the right  amount of time, information about the right times a
 In oder to build the device which fulfill the requirements from the table above, additional hardware is needed. In this section you find the bill of materials.
 
 | Amount   |      Part Type      |  Descripiton |
-|----------|:--------------------:|------:| 
+|----------|:---------------------|:------| 
 |1| DS18B20 1-Wire Temperature Sensor|Temperature sensor to measure the current temperature as well as detect if water is in the pot or not|
 |1|Piezo Speaker|Speaker to give accustic feedback to user|
 |1|LCD screen|Screen for the user interface of the device|

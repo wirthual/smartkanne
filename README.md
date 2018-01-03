@@ -92,9 +92,9 @@ You can easily open up the bottom part and take out the glass cylinder. As first
 
  It is only a very basic base where you can put the pot on top with a cutout for the display. For more advanced approches you can add a thread for fixing the part at the bottom of the pot.
 
-[sketch1]: docs/sketches/icon48.png "Sketch from SmartKanne with Smartphone"
-[sketch2]: docs/sketches/icon2.png "Sketch from SmartKanne Standalone"
-[sketch3]: docs/sketches/icon3.png "Sketch from SmartKanne with base station"
+[sketch1]: docs/sketches/kanne_smartphone.png "Sketch from SmartKanne with Smartphone"
+[sketch2]: docs/sketches/kanne_standalone.png "Sketch from SmartKanne Standalone"
+[sketch3]: docs/sketches/kanne_base_station.png "Sketch from SmartKanne with base station"
 [schema]: docs/schema/SmartKanne_0.1_bb.png "Schema from SmartKanne"
 [pot]: docs/housing/kanne.png "Image of pot used for project" 
 [pot extension]: docs/housing/base.svg "Image of pot extension" 

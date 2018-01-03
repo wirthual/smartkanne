@@ -1,7 +1,7 @@
 # SmartKanne
 
 ### 1. Introduction
-This project was created for the Ubiquitous Computing Course on the KIT. The goal of this course is to learn about the development process of a smart appliance. Topics covered in this lecture are things like techniques for finding a good idea, analyse your potential customers, sketching methods as well as the technical part like hardware including sensors, actuators and knowledge about arduino.
+This project was created for the Ubiquitous Computing Course at the Karlsruhe Institute of Technology. The goal of this course is to learn about the development process of a smart appliance. Topics covered in this course are techniques for finding a good idea, analyse your potential customers, sketching methods as well as the technical part like hardware including sensors, actuators and knowledge about arduino.
 
 #### 1.1 Project structure
 | Folder    |     Content |
@@ -14,8 +14,8 @@ This project was created for the Ubiquitous Computing Course on the KIT. The goa
 | docs/housing/ | Contains images of the used pot as well as a very basic draft for the 3D printer to enlarge the pot housing. Created with [FreeCAD](https://www.freecadweb.org/?lang=de) |
 
 ### 2. Project idea
-The idea for this problem came to me during the winter months drinking a lot of tea. However, every time I made a tea,  I forgot to take the tea bags  out of the pot so very often the tea became bitter in the end.
-I want to solve this problem by developing this SmartKanne. This gadget should help me not to forget about my tea. Also it should be able to give me instructions about the right temperature and time for each tea to get the best possible result when steeping tea.
+The idea for this problem came to me during the winter months drinking a lot of tea. However, every time I made a tea I forgot to take the tea bags out of the pot so very often the tea became bitter in the end.
+I want to solve this problem by developing this SmartKanne. This device should help me not to forget about my tea. Also it should be able to give me instructions about the right temperature and time for each tea to get the best possible result when steeping tea.
 
 ### 3. Requirements
 Here I list the basic requierements SmartKanne should be able to cover:
@@ -30,7 +30,7 @@ Here I list the basic requierements SmartKanne should be able to cover:
 
 
 ### 4. Designs
-In order to cover the features from section 3, SmartKanne needs some additional hardware to fullfill the requierements. user interface for the user to be able to interact with it.
+In order to cover the features from section 3, SmartKanne needs some additional hardware to fullfill the requierements. In this section I show you some sketches I made in the development process.
 
 #### 4.1 Use Smartphone as user interface
 One idea to satisfy the requirements is to control SmartKanne by a smartphone which can communicate over bluetooth low energy or  wifi or something similar. This would have the advantage to allow a lot of settings for the smart kanne, since you have an full interface with all possible UI elements.
@@ -39,17 +39,17 @@ One idea to satisfy the requirements is to control SmartKanne by a smartphone wh
 
 
 #### 4.2 Standalone
-Onaother possibility to create the user interface for SmartKanne is to use additional hardware. This design allows the gadget to be used independently from other devices and lowers the complexity of usage. Furthermore external sources of errors are excluded. For the power supply there has to be an battery pack included to ensure a convenient usaga of the device.
+Onaother possibility to create the user interface for SmartKanne is to use additional hardware. This design allows the gadget to be used independently from other devices and lowers the complexity of usage. Furthermore external sources of errors are excluded. For the power supply there has to be an battery pack included to ensure a convenient usage of the device.
 
 ![sketch standalone][sketch2]
 
 #### 4.3 Base station
-Design number 3 is an approch without external hardware as well. However, the idea here is to put all the electronics in an base station where you can put an pot that is then connected automatically. This way multiple pots could be used with one base station(multi user support with multiple pots). The pot would then just include the temerature sensor which would be connected when the pot is put into the station. The disadvantage is that you have to wait till the tea is done to take the pot with you and leave the station behind. Then the base station could be powered by an outlet. 
+Design number 3 is an approach without external devices as well. However, the idea here is to put all the electronics in an base station where you can put an pot that is then connected automatically. This way multiple pots could be used with one base station(multi user support with multiple pots). The pot would then just include the temerature sensor which would be connected when the pot is put into the station. The disadvantage is that you have to wait till the tea is done to take the pot with you and leave the station behind. Then the base station could be powered by an outlet since it will be stationary anyway. 
 
 ![sketch base station][sketch3]
 
 ### 5. Design Decicion 
-In order to build a stand alone appliance the approch number 4.2 seems the best choice in order to have a big impact in the process of making tea. The limitation of user interaction prevents the device from getting to complex and developing some kind of “feature creep”. 
+In order to build a n appliance the approch number 4.2 seems the best choice in order to have a big impact in the process of making tea. The limitation of user interaction prevents the device from getting to complex and developing some kind of “feature creep”. 
 The usage of an additional smart phone brings a lot of overhead an in total two devices are needed for the process of making tea. The idea with the base station interferes with the idea that you are not bound to a certain place and you can carry the hole device around to the place where you want to enjoy your tea.
 
 ### 6. Inforamtion about the tea types

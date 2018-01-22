@@ -91,6 +91,13 @@ You can easily open up the bottom part and take out the glass cylinder. As first
 ![housing extension][pot extension]
 
  It is only a very basic base where you can put the pot on top with a cutout for the display. For more advanced approches you can add a thread for fixing the part at the bottom of the pot.
+ 
+ 
+### 11. Business Model Canvas
+In order to get an overview over the business model, here you can see the business model canvas of SmartKanne. It can also be accessed over this [link](https://canvanizer.com/canvas/rdbEy04koZJil).
+
+![business model canvas][bmc]
+
 
 [sketch1]: docs/sketches/kanne_smartphone.png "Sketch from SmartKanne with Smartphone"
 [sketch2]: docs/sketches/kanne_standalone.png "Sketch from SmartKanne Standalone"
@@ -99,3 +106,4 @@ You can easily open up the bottom part and take out the glass cylinder. As first
 [pot]: docs/housing/kanne.png "Image of pot used for project" 
 [pot extension]: docs/housing/base.svg "Image of pot extension" 
 [states]: docs/state_diagram/states.jpeg "State diagram" 
+[bmc]: docs/business_model_canvas/business_model_canvas.png "Business Model Canvas" 

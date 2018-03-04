@@ -71,12 +71,10 @@ In oder to build the device which fulfill the requirements from the table above,
 |1|4.7kΩ Resistor|Needed for temperature sensor| 0,01€
 |2|Momentary Switch|Switches to allow user interaction| 0,20€
 |1|Battery Holder 6xAA|Power supply. Recommended for Arduino: 7 - 12 Volts| 3,00€
+|1|Tea pot | Tea pot as base for smartkanne|15 €
+|1|3d-printed housing |PLA consumtion ca. 150g  |ca. 7 €
+|**Total:**|||**72,95 €**
 
-Overall price of the electronic components for the prototype:  50,95 €
-Tea pot: 15 €
-3d-printed housing: ca. 150g of PLA, ca. 7 €
-Total: 72,95 €
------------------------------------------------
 
 ### 8. Schema
 Shows the general setup and connection of the hardware components.  Created with [Fritzing](http://fritzing.org/home/)
@@ -132,18 +130,21 @@ Here some examples:
 * Think about measuring the amount of tea, this way Smartkanne could provide extensive statistics about the consum of a user for the quantified self
 
 ### 13. Further Information
-#####Rough Lifetime estimation (very conservative):
+##### Rough Lifetime estimation (very conservative):
 Power consumption:
-[LCD](https://www.sparkfun.com/datasheets/LCD/GDM1602K.pdf): 4mA + 160mA with Backlight
-[RFID](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf) 100mA
-[Temperature Sensor](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) 1mA
-[Buuzzer](https://www.cui.com/product/resource/cem-1203-42-.pdf) 35mA
-[Arduino](https://store.arduino.cc/arduino-uno-rev3) 50 mA
 
-Overall: ca. 300mA
+| Part   |      Consumption     | 
+|----------|:---------------------|
+| [LCD](https://www.sparkfun.com/datasheets/LCD/GDM1602K.pdf) | 4mA + 160mA with Backlight
+| [RFID](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf) | 100mA
+|[Temperature Sensor](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) | 1mA
+|[Buuzzer](https://www.cui.com/product/resource/cem-1203-42-.pdf) |  35mA
+|[Arduino](https://store.arduino.cc/arduino-uno-rev3) | 50 mA
+|**Overall**| **ca. 300mA**
+
 Alkaline Batteries AA: ca. 2100mAh
 
-Lifetime in use: 7h
+Lifetime in use: 2100mAh/300mA = 7h
 
 Time per Usage: 10min (Longest tea needs 8 minutes + 2 minutes buffer)
 
@@ -151,14 +152,14 @@ Approx. usages per battery load: (7*60min)/10min = 42 usages
 
 With around 1,5 usages a day: Lifetime around 28 days
 
-Note: Turning off the backlight of the display will double the lifetime.
+Note: Turning off the backlight of the display will double the lifetime. Also lot of power savingwith RFID reader is possible (see [this](https://github.com/miguelbalboa/rfid/issues/269))
 
-#####Market Research:
+##### Market Research:
 Accoding to [this](https://www.statista.com/statistics/326384/global-tea-beverage-market-size/) statistics, the global global tea beverage market is growing constantly and will reach 44.3 billion USD in 2021.
 
 As relation, the [Global TV market revenue](https://www.statista.com/statistics/461324/global-tv-market-sales/) in 2017 was estimated to 105 billion USD. 
 
-#####Similar Products:
+##### Similar Products:
 [the Smart Tea Pot™](https://sageappliances.co.uk/products/the-sage-smart-tea-pot?variant=52066480708)  £129.95 (01.03.2018)
 
 [the Tea Maker](https://sageappliances.co.uk/collections/tea-makers/products/the-one-touch-tea-maker?variant=40399807556)  £199.95 (01.03.2018) 

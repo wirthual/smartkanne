@@ -99,6 +99,7 @@ For further improvements you could add a thread to the model and replace the hol
 To get an idea about the model you can see the model [here](docs/housing/housing.pdf)
 
 And here is a timelapse of the printing:
+
 ![timelapse of printing][print]
 
 The full video can be found [here](https://youtu.be/i6MLm4RjLGM)

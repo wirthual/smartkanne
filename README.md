@@ -1,4 +1,4 @@
-# SmartKanne
+# SmartKanne [smaːɐ̯tˈkanə]
 
 ### 1. Introduction
 This project was created for the Ubiquitous Computing Course at the Karlsruhe Institute of Technology. The goal of this course is to learn about the development process of a smart appliance. Topics covered in this course are techniques for finding a good idea, analyse your potential customers, sketching methods as well as the technical part like hardware including sensors, actuators and knowledge about arduino.

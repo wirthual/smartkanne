@@ -71,9 +71,10 @@ In oder to build the device which fulfill the requirements from the table above,
 |1|4.7kΩ Resistor|Needed for temperature sensor| 0,01€
 |2|Momentary Switch|Switches to allow user interaction| 0,20€
 |1|Battery Holder 6xAA|Power supply. Recommended for Arduino: 7 - 12 Volts| 3,00€
+|1|Switch|Like [this](https://www.conrad.de/de/schiebeschalter-250-vac-6-a-2-x-einein-sci-r13-602b-05-1-st-701139.html) to fit into the cutout of the housing| 1,00€
 |1|Tea pot | Tea pot as base for smartkanne|15 €
 |1|3d-printed housing |PLA consumtion ca. 150g  |ca. 7 €
-|**Total:**|||**72,95 €**
+|**Total:**|||**7,95 €**
 
 
 ### 8. Schema
@@ -83,7 +84,7 @@ Shows the general setup and connection of the hardware components.  Created with
 
 
 ### 9. Software
-The source code can be found in this repository. The basic concept behind it is to use a finite state machine for the general structure of the program. Here you can see the simple structure of the states and its transitions which is then implemented using the fsm library for arduino. For the control of the screen and the rfid reader available libraries are used. 
+The source code can be found in this repository. The basic concept behind it is to use a finite state machine for the general structure of the program. Here you can see the simple structure of the states and its transitions which is then implemented using the [fsm](https://github.com/jonblack/arduino-fsm) library for arduino. For the control of the screen and the rfid reader available libraries are used. 
 
 ![states and transitions][states]
 
@@ -92,7 +93,7 @@ For the prototype an tea pot like [this](https://www.amazon.de/Emsa-504232-Isoli
 
 You can easily open up the bottom part and put the cable through the housing in the glass cylinder to measure the temperature. However, then the seiling does not work as expected, thats why the cable is put outside the housing and back into the can from outside. This way the pot does not have to be motified and this approach seems sufficient for a prototype.
 
-For the electronic stuff an enlargement for the pot can be printed. You an find the CAD-model in the folder *docs/housing*. Also an ready-to-print SLT file is included for easy replication.
+For the electronic stuff an enlargement for the pot can be printed. You an find the CAD-model in the folder *docs/housing*. Also an ready-to-print SLT file is included for easy replication. The cutout for the battery holder fits for [this](https://www.amazon.de/Wentronic-Batteriehalter-Mignon-geschlossenes-Geh%C3%A4use/dp/B001C6JTYE/ref=cm_cr_arp_d_product_top?ie=UTF8) product. In order to fit, you need to cutoff the clips of the holder a little bit, then it fits nicely into the cutout.
 
 For further improvements you could add a thread to the model and replace the hole bottom of the tea pot to get a nicer product. 
 
@@ -117,6 +118,7 @@ The full result can be found in this [PDF](docs/misc/Smartkanne_COSYSMO.pdf)
 
 ### 13. Possible Improvements
 * In order to avoid a too long steep time, there could be a motor to pull out the tea bags as soon as the tea is ready.
+* Energy harvesting from the heat of the water
 * By now, the time starts as soon as the water temperature is over a certain threshold. However, if the water temparature is to high or to low for the selected kind of tea there is no warning by now. This behaviour could improve overall tea quality.
 * Think about getting the right steep time per tea automatically from the internet depending on scanned [EPC](https://www.epc-rfid.info/). Starting point could be *product markup language* [PML](http://web.mit.edu/mecheng/pml/overview.htm), especially so called [Controls](http://web.mit.edu/mecheng/pml/spec_control.htm) to allow a product to communicate with devices. This would require additional internet connection for the tea pot which would then be a part of the IoT.
 * Think about an concept to store additional information right on the RFID tag of the product to give additional information for the customer without needing an internet connection as stated before.(e.g Best Before, Recommended Temerature,etc.) This way customers could also benefit directly from the usage of rfid in retail stores without needing an internet connection for every product. Most of literature only focuses on benefits for retailers or the supply chain, not directly for customers. 

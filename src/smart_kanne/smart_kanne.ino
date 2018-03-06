@@ -86,20 +86,20 @@ void setup()
   mfrc522.PCD_Init();
 
   //Initialize Teas
-  //  Tea blackTea = Tea("Black",300,95);
-  //  Tea greenTea = Tea("Green",240,80);
-  //  Tea oolongTea = Tea("Oolong",60,85);
-  //  Tea yellowTea = Tea("Yellow",180,75);
-  //  Tea whiteTea = Tea("White",240,70);
-  //  Tea herbalTea = Tea("Herbal",420,95);
-  //  Tea fruitTea = Tea("Fruit",480,95);
-  Tea blackTea = Tea("Black", 10, 95, 4294957801);
-  Tea greenTea = Tea("Green", 11, 80, 10035);
-  Tea oolongTea = Tea("Oolong", 5, 85, -1);
-  Tea yellowTea = Tea("Yellow", 6, 75, -1);
-  Tea whiteTea = Tea("White", 7, 70, -1);
-  Tea herbalTea = Tea("Herbal", 8, 95, -1);
-  Tea fruitTea = Tea("Fruit", 9, 95, -1);
+    Tea blackTea = Tea("Black",300,95,-1);
+    Tea greenTea = Tea("Green",240,80,-1);
+    Tea oolongTea = Tea("Oolong",60,85,-1);
+    Tea yellowTea = Tea("Yellow",180,75,-1);
+    Tea whiteTea = Tea("White",240,70,-1);
+    Tea herbalTea = Tea("Herbal",420,95,10035);
+    Tea fruitTea = Tea("Fruit",480,95,4294957801);
+  //Tea blackTea = Tea("Black", 10, 95, 4294957801);
+  //Tea greenTea = Tea("Green", 11, 80, 10035);
+  //Tea oolongTea = Tea("Oolong", 5, 85, -1);
+  //Tea yellowTea = Tea("Yellow", 6, 75, -1);
+  //Tea whiteTea = Tea("White", 7, 70, -1);
+  //Tea herbalTea = Tea("Herbal", 8, 95, -1);
+  //Tea fruitTea = Tea("Fruit", 9, 95, -1);
 
   teas[0] = blackTea;
   teas[1] = greenTea;
@@ -305,7 +305,7 @@ void state_done_exit()
   lcd.setCursor(11, 1);
   lcd.print(getTemperature());
   lcd.display();
-  delay(10000);
+  delay(5000); //Update tea every 5 seconds
   if (getTemperature() < 30.00) {
     fsm.trigger(RESTART_EVENT);
   }
@@ -379,6 +379,8 @@ void teaDone()
   tone(BUZZER_PIN, 1000);
   delay(1000);
   noTone(BUZZER_PIN);
+  delay(1000);
+  tone(BUZZER_PIN, 1000);
 }
 
 //From https://stackoverflow.com/questions/32839396/how-to-get-the-uid-of-rfid-in-arduino

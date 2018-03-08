@@ -169,6 +169,7 @@ As relation, the [Global TV market revenue](https://www.statista.com/statistics/
 in the [YouTube-Video](https://youtu.be/JXULYQFoPrc?t=3m6s) he says: "...its the only one in the world..."but wait: 
 [the Tea Maker™](https://www.brevilleusa.com/products/the-one-touch-tea-maker?variant=33819867281) 249$ (01.03.2018) 
 
+[qiaerista](https://qiaerista.com/) / [Campain on Kickstarter](https://www.kickstarter.com/projects/rickha/qi-aerista-the-ultimate-wi-fi-enabled-smart-tea-ma?utm_source=kickbooster&utm_medium=redirect&utm_content=link&utm_campaign=hflhuho1) $200 (01.03.2018)
 
 
 
@@ -180,4 +181,4 @@ in the [YouTube-Video](https://youtu.be/JXULYQFoPrc?t=3m6s) he says: "...its the
 [schema]: docs/schema/SmartKanne_0.1_bb.png "Schema from SmartKanne"
 [states]: docs/state_diagram/states.jpeg "State diagram" 
 [bmc]: docs/misc/business_model_canvas.png "Business Model Canvas" 
-[print]: docs/housing/printing.gif  "3d printing of housing timelapse" 
+[print]: docs/housing/printing.gif  "3d printing of housing timelapse"

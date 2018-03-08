@@ -74,7 +74,7 @@ In oder to build the device which fulfill the requirements from the table above,
 |1|Switch|Like [this](https://www.conrad.de/de/schiebeschalter-250-vac-6-a-2-x-einein-sci-r13-602b-05-1-st-701139.html) to fit into the cutout of the housing| 1,00€
 |1|Tea pot | Tea pot as base for smartkanne|15 €
 |1|3d-printed housing |PLA consumtion ca. 150g  |ca. 7 €
-|**Total:**|||**7,95 €**
+|**Total:**|||**72,95 €**
 
 
 ### 8. Schema

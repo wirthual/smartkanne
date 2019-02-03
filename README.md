@@ -1,5 +1,7 @@
 # SmartKanne [smaːɐ̯tˈkanə]
 
+![final image sprite][final1]
+
 ### 1. Introduction
 This project was created for the Ubiquitous Computing Course at the Karlsruhe Institute of Technology. The goal of this course is to learn about the development process of a smart appliance. Topics covered in this course are techniques for finding a good idea, analyse your potential customers, sketching methods as well as the technical part like hardware including sensors, actuators and knowledge about arduino.
 
@@ -182,3 +184,5 @@ in the [YouTube-Video](https://youtu.be/JXULYQFoPrc?t=3m6s) he says: "...its the
 [states]: docs/state_diagram/states.jpeg "State diagram" 
 [bmc]: docs/misc/business_model_canvas.png "Business Model Canvas" 
 [print]: docs/housing/printing.gif  "3d printing of housing timelapse"
+[final1]: docs/images/final.jpg "Image sprite of the final product"
+

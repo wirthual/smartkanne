@@ -51,7 +51,7 @@ Design number 3 is an approach without external devices as well. However, the id
 
 ![sketch base station][sketch3]
 
-### 5. Design Decicion 
+### 5. Design Decision 
 In order to build a n appliance the approch number 4.2 seems the best choice in order to have a big impact in the process of making tea. The limitation of user interaction prevents the device from getting to complex and developing some kind of “feature creep”. 
 The usage of an additional smart phone brings a lot of overhead an in total two devices are needed for the process of making tea. The idea with the base station interferes with the idea that you are not bound to a certain place and you can carry the hole device around to the place where you want to enjoy your tea.
 
@@ -134,7 +134,7 @@ Here some examples:
 * By now, the only way the user is notified is over an audio signal (beeping). Think about using blinking or haptic as well for impaired people
 * Think about measuring the amount of tea, this way Smartkanne could provide extensive statistics about the consum of a user for the quantified self
 
-### 13. Further Information
+### 14. Further Information
 ##### Rough Lifetime estimation (very conservative):
 Power consumption:
 
